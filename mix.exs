@@ -60,7 +60,7 @@ defmodule Bamboo.Mixfile do
   defp deps do
     [
       {:plug, "~> 1.0"},
-      {:mime, "~> 2.0"},
+      {:mime, "~> 2.0.2"},
       {:ex_machina, "~> 2.4", only: :test},
       {:cowboy, "~> 1.0", only: [:test, :dev]},
       {:excoveralls, "~> 0.13", only: :test},
